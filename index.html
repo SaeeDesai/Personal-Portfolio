@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Saee Desai</title>
+    <link rel="icon" href="/favicon-16x16.png" type="image/x-icon" />
+
+    <!--box icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--custom css-->
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <!--header design-->
+    <header class="header">
+      <a href="#home" class="logo">Portfolio.</a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact Me</a>
+      </nav>
+      <div class="bx bx-moon" id="darkMode-icon"></div>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!--home page design-->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Hello, I am</h3>
+        <h1>Saee Desai</h1>
+        <p>
+          An avid Computer Engineering student, eager to learn and expand my
+          horizons in the ever-evolving world of technology. Active
+          participation in extracurricular activities, with leadership
+          experience.
+        </p>
+
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-instagram-alt"></i></a>
+          <a href="https://www.linkedin.com/in/saee-desai-237519206"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/SaeeDesai"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        <a href="resume/Saee_Desai_Resume (3) (1).pdf" class="button" download
+          >Download CV</a
+        >
+      </div>
+
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bx-code-alt" id="web"></i>
+            <h3>Web Developer</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class="bx bx-code-alt" id="data"></i>
+            <h3>Data Science</h3>
+          </div>
+          <div class="profession" style="--i: 2">
+            <i class="bx bxl-android"></i>
+            <h3>Android Dev</h3>
+          </div>
+          <div class="profession" style="--i: 3">
+            <i class="bx bx-music" id="music"></i>
+            <h3>Classical Music</h3>
+          </div>
+
+          <div class="circle"></div>
+        </div>
+
+        <div class="overlay"></div>
+      </div>
+
+      <div class="home-img">
+        <img src="images/myimg-removebg.png" alt="" />
+      </div>
+    </section>
+
+    <!--about section design-->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/about_me.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Here's a Little Something About Me</h3>
+        <p>
+          My name is Saee Desai, and I'm a passionate Computer Engineering
+          student at Vishwakarma Institute of Information Technology. Driven by
+          a thirst for knowledge and a knack for tackling challenges, I'm
+          constantly expanding my horizons in the ever-evolving world of
+          technology.
+        </p>
+        <p>
+          Beyond academics, I actively participate in extracurricular activities
+          and have obtained distinction in four exams of classical music.
+        </p>
+        <p>
+          I'm excited to leverage my technical skills, problem-solving
+          abilities, and collaborative spirit to make a positive impact in the
+          tech industry. Feel free to explore my portfolio and connect with me
+          to learn more about my journey and future aspirations.
+        </p>
+        <!--<a href="#" class="button">Read More</a>-->
+      </div>
+    </section>
+
+    <!--projects design-->
+    <section class="project" id="project">
+      <h2 class="heading">My <span>Projects</span></h2>
+
+      <div class="project-container">
+        <div class="project-box">
+          <img src="images/android.png" alt="" />
+
+          <div class="project-layer">
+            <h4>Android Application</h4>
+            <p>
+              This project is about developing an Android app which sends
+              notifications to the user, at the given date and time and the
+              specified content
+            </p>
+            <a href="https://github.com/SaeeDesai"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="images/c++.png" alt="" />
+
+          <div class="project-layer">
+            <h4>Scientific Calculator</h4>
+            <p>
+              A basic project in C++ which calculated not only basic arithmetic,
+              but also dived into complex numbers and permutations and
+              combinations
+            </p>
+            <a href="https://github.com/SaeeDesai"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="images/react.png" alt="" />
+
+          <div class="project-layer">
+            <h4>Personal Portfolio</h4>
+            <p>
+              Developed a personal portfolio website using HTML, CSS and
+              Javascript, with usage of CSS transitions. Deployed using Heroku
+            </p>
+            <a href="https://github.com/SaeeDesai"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+        <div class="project-box">
+          <img src="images/python.png" alt="" />
+
+          <div class="project-layer">
+            <h4>Enhanced Communication Security</h4>
+            <p>
+              This project is about developing a secure network connection using
+              cryptography and quantum key distribution protocols. Language used
+              - Python Libraries used – qiskit, cryptography, socket and tkinter
+              to develop a GUI to send and receive encrypted messages and text
+              files.
+            </p>
+            <a href="https://github.com/SaeeDesai"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact section design-->
+    <section class="contact" id="contact">
+      <h2 class="heading">Let's <span>Connect!</span></h2>
+
+      <form onsubmit="sendEmail()">
+        <div class="input-box">
+          <input
+            type="text"
+            id="name"
+            placeholder="Full Name"
+            autocomplete="off"
+          />
+          <input
+            type="email"
+            id="email"
+            placeholder="Email Address"
+            autocomplete="off"
+          />
+        </div>
+        <div class="input-box">
+          <input
+            type="text"
+            id="mobile"
+            placeholder="Mobile Number"
+            autocomplete="off"
+          />
+          <input
+            type="text"
+            id="subject"
+            placeholder="Email Subject"
+            autocomplete="off"
+          />
+        </div>
+        <textarea
+          name=""
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+          autocomplete="off"
+        ></textarea>
+        <input type="submit" value="Send Message" class="button" />
+      </form>
+    </section>
+
+    <!--footer design-->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Saee Desai | All Rights Reserved</p>
+      </div>
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/index.js"></script>
+  </body>
+</html>
